@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.head{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.head .logo{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight:bolder;
+    color: red;
+    cursor: pointer;
+}
+
+.head .btns{
+    margin-right: 60px;
+}
+
+.head .btn{
+    padding: 8px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.head .btn1{
+    border: none;
+    color: white;
+}
+
+.head .btn2{
+    border: 2px solid white;
+}
+
+.heading{
+    padding: 30px 0 30px 0;
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(50, 47, 47);
+}
+
+
+.sidebar{
+    max-width: 13%;
+    height: 92vh;
+    margin-left: 80px;
+    padding: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h2{
+    font-size:larger;
+    font-weight: 500;
+}
+
+.sidebar .dropdown{
+    font-weight: light;
+    padding: 10px 10px 10px 0;
+}
+
+.sidebar .dropdown select{
+    width: 21vh;
+    padding: 5px;
+    margin: 5px 5px 5px 0;
+    color: lightslategray;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.sidebar .dropdown label{
+    color: rgb(84, 80, 80);
+}
+
+.checkbox h3{
+    font-weight:400;
+    padding: 10px 10px 10px 0;
+    color: rgb(84, 80, 80);
+}
+.checkbox .box{
+    padding-top: 6px;
+    color: lightslategray;
+}
+
+input[type=checkbox],input[type=radio] {
+    accent-color: rgb(72, 67, 67);
+  }
+
+.sort h3{
+    font-size:larger;
+    font-weight: 500;
+    padding: 7px 0 7px 0;
+}
+
+.sort .box{
+    padding: 5px 0 5px 0;
+    color: lightslategray;
+    
+}
+
+
+.sbar{
+    display: flex;
+    height: 75vh;
+}
+
+.card1{
+    padding: 20px;
+    margin-left: 40px;
+    width: 1110px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 70px;
+}
+
+.card1:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card1 h2,.place{
+    color: rgb(50, 47, 47);
+}
+.card1 .address{
+    color: lightslategray;
+}
+
+.det{
+    color: lightslategray;
+}
+.card1 hr{
+    margin: 28px 0 28px 0;
+}
+
+.value{
+    color: rgb(93, 90, 90);
+}
+
+.cardimg{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.cardimg img{
+    width: 98px;
+    height: 98px;
+    border-radius: 20px;
+}
+
+.aboutimg h2,p{
+    margin-bottom: 6px;
+}
+.carddetails{
+    display: flex;
+    gap: 30px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    color: lightslategray;
+}
+
+.pagination p{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid lightslategray;;
+    padding: 5px;
+    width: 30px;
+}
+
+.pagination p:hover{
+    background-color: lightslategray;
+    color: white;
+}
